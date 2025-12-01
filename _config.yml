@@ -1,0 +1,18 @@
+title: Cheap AI Works
+description: AI Integration Consulting for Daily Workflows
+url: https://consulting.cheap-ai.net
+github_url: https://github.com/eortner/cheap-ai-consulting
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
