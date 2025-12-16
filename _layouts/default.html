@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="bg-black text-white">
+  <!-- Particle background container -->
+  <div class="fixed inset-0 z-0" id="particle-bg"></div>
+  
+  {% include header.html %}
+  
+  <main class="relative z-10">
+    {{ content }}
+  </main>
+  
+  {% include footer.html %}
+  
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
